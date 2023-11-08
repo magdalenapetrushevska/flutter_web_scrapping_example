@@ -4,9 +4,9 @@ import 'package:http/http.dart' as http;
 
 void main() => runApp(MaterialApp( 
 	theme: ThemeData( 
-	hintColor: Colors.green, 
-	scaffoldBackgroundColor: Colors.green[100], 
-	primaryColor: Colors.green, 
+	hintColor: Colors.purple, 
+	scaffoldBackgroundColor: Colors.purple[100], 
+	primaryColor: Colors.purple, 
 	), 
 	home: MyApp())); 
 
@@ -132,7 +132,7 @@ Widget build(BuildContext context) {
 				'Scrap Data', 
 				style: TextStyle(color: Colors.white), 
 			), 
-			color: Colors.green, 
+			color: Colors.purple, 
 			) 
 		], 
 		)), 

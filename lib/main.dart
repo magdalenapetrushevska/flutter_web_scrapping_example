@@ -88,19 +88,19 @@ Widget build(BuildContext context) {
 				? CircularProgressIndicator() 
 				: Column( 
 					children: [ 
-					Text(result1, 
+					Text('Tip: $result1', 
 						style: TextStyle( 
 							fontSize: 20, fontWeight: FontWeight.bold)), 
 					SizedBox( 
 						height: MediaQuery.of(context).size.height * 0.05, 
 					), 
-					Text(result2, 
+					Text('Datum: $result2', 
 						style: TextStyle( 
 							fontSize: 20, fontWeight: FontWeight.bold)), 
 					SizedBox( 
 						height: MediaQuery.of(context).size.height * 0.05, 
 					), 
-					Text(result3, 
+					Text('G. shi.: $result3', 
 						style: TextStyle( 
 							fontSize: 20, fontWeight: FontWeight.bold)), 
 					], 
